@@ -53,7 +53,7 @@
     
     function inputItems(items) {
         var card = `
-            <div class="col-4 mt-2">
+            <div class="col-4 " style="margin-top: 20px">
                 <div class="card" style="width: 18rem;">
                     <img src="image/${items[4]}" class="card-img-top" height="200px" width="200px" alt="${items[1]}">
                     <div class="card-body">
@@ -111,7 +111,7 @@
                 inputItems(searching[i]);
             }
         } else {
-            document.getElementById("listBarang").innerHTML = "<p>Tidak ada hasil yang ditemukan.</p>";
+            document.getElementById("listBarang").innerHTML = "<p>Gak ada boss.</p>";
         }
     });
 
